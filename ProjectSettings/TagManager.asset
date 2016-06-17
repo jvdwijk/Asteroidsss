@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Comet
+  - Bullet
+  - Enemy
+  - Playerinventory
+  - Sellknop1
+  - Sellknop2
+  - Sellknop3
+  - Sellknop4
+  - Sellknop5
+  - Sellknop6
+  - Sellknop7
+  - Sellknop8
+  - Sellknop9
+  - Sellknop10
+  - Buyknop1
+  - Buyknop2
+  - Buyknop3
+  - Buyknop4
+  - Buyknop5
+  - Buyknop6
+  - Buyknop7
+  - Buyknop8
+  - Buyknop9
+  - Camera
+  - Compass
+  - Thunder
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

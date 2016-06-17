@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour 
 {
+	[HideInInspector]
 	public float Health;
 	public Image healthBar;
 	private float regenDelay = 1.0F;
@@ -42,7 +43,6 @@ public class PlayerHealth : MonoBehaviour
 	}
 
 	private void Poisoning(){
-		Debug.Log (poisoned);
 		if(poisoned == false){
 			invokingPoison = false;
 			CancelInvoke ();

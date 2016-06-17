@@ -44,6 +44,7 @@ public class EnemyMovement : MonoBehaviour {
 			newRot = Quaternion.Euler(0, transform.rotation.y + Random.Range(-45, 45), 0);
 			if (transform.position.x > 100 || transform.position.x < -100 || transform.position.z > 100 || transform.position.z < -100) { //OUT OF BOUNDS
 				Vector3 _dir = (Vector3.one - transform.position).normalized;
+				Debug.Log (_dir);
 				Quaternion _rot = Quaternion.LookRotation (_dir / 2);
 
 				newRot = _rot;

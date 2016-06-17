@@ -49,6 +49,7 @@ public class Comet : MonoBehaviour {
 
 		GameObject explosion = Instantiate (Resources.Load ("FX_Bolletjes_trail 1", typeof(GameObject))) as GameObject; 
 		explosion.transform.position = transform.position;
+		explosion.transform.localScale = transform.localScale * .1f;
 		Destroy (explosion, 9f);
 
 		PoolingScript.current.Destroy (gameObject);

@@ -609,6 +609,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 30
+  frozen: 0
+  reversed: 0
   thrusters:
   - {fileID: 19874848}
   - {fileID: 19828240}
@@ -630,8 +632,7 @@ MonoBehaviour:
   bulletSpeed: 0
   fireRate: 0.4
   ammoBar: {fileID: 0}
-  shotSound1: {fileID: 0}
-  shotSound2: {fileID: 0}
+  ShootSound: Schietgeluid_vuur
 --- !u!114 &11471482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -645,6 +646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   healthBar: {fileID: 0}
+  poisoned: 0
 --- !u!198 &19828240
 ParticleSystem:
   m_ObjectHideFlags: 1

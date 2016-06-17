@@ -14,6 +14,7 @@ public class PlayerShooting : MonoBehaviour
 	private Image ammoBar;
 	[SerializeField]
 	private string ShootSound;
+	private Movement movement;
 
 	private float nextFire = 0.0F;
 	private float bullets = 12;
@@ -22,12 +23,13 @@ public class PlayerShooting : MonoBehaviour
 	private InputHandler inputHandler;
 
 	void Awake(){
+		movement = GetComponent <Movement> ();
 		inputHandler = GameObject.FindObjectOfType <InputHandler> ();
 	}
 
 	void Update()
 	{
-		if(bullets > 0 && Time.time > nextFire && Input.GetKey (inputHandler.inputs["shootKnop"]))
+		if(bullets > 0 && movement.frozen == false && Time.time > nextFire && Input.GetKey (inputHandler.inputs["shootKnop"]))
 		{
 			Shoot();
 		}

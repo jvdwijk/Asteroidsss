@@ -59,20 +59,28 @@ public class BossEvents : MonoBehaviour {
 	 */
 
 	//default power ups
+	[ContextMenu ("Shoot")]
 	public void Shoot()
 	{
-		GameObject bullet = PoolingScript.current.GetPooledObject (boss.bullet.gameObject, true);
-		bullet.transform.rotation = boss.muzzle.rotation;
-		bullet.transform.position = boss.muzzle.position;
+		GameObject obj = PoolingScript.current.GetPooledObject (boss.bullet.gameObject);
+
+		if (obj == null)
+			return;
+
+		obj.transform.position = transform.position;
+		obj.transform.rotation = boss.muzzle.rotation;
+		obj.SetActive (true);
 	}
 
 	//default power ups
+	[ContextMenu ("SpawnMinnion")]
 	public void SpawnMinions()
 	{
 		Instantiate (boss.minion, transform.position, Quaternion.identity);
 	}
 
 	//Ice power ups
+	[ContextMenu ("IceShot")]
 	public void IceShot()
 	{
 		GameObject obj = PoolingScript.current.GetPooledObject (iceBullet.gameObject);
@@ -145,11 +153,13 @@ public class BossEvents : MonoBehaviour {
 	{
 		if (playerHealth.poisoned == false) {
 			playerHealth.poisoned = true;
+			poisonCanvas.enabled = true;
 		}
 	}
 
 	public void PoisonHeal(){
 		playerHealth.poisoned = false;
+		poisonCanvas.enabled = false;
 	}
 
 	//Jungle power ups
@@ -166,11 +176,17 @@ public class BossEvents : MonoBehaviour {
 
 	//Dark power ups
 	//klein donderschot die 70 damage op de player doet als het raakt.
+	[ContextMenu ("Thunder")]
 	public void Thunder()
 	{
-		Instantiate (thunderBolt, transform.position, transform.rotation);
-		thunderBolt.transform.rotation = boss.muzzle.rotation;
-		thunderBolt.transform.position = boss.muzzle.position;
+		GameObject obj = PoolingScript.current.GetPooledObject (thunderBolt.gameObject);
+
+		if (obj == null)
+			return;
+
+		obj.transform.position = transform.position;
+		obj.transform.rotation = boss.muzzle.rotation;
+		obj.SetActive (true);
 	}
 
 	//Dark power ups
@@ -178,12 +194,6 @@ public class BossEvents : MonoBehaviour {
 	{
 		blindCanvas.enabled = false;
 		Invoke ("BlindFix", 2);
-	}
-
-	//Ultimate power ups
-	public void UltimateRain()
-	{
-
 	}
 
 	private void BlindFix(){

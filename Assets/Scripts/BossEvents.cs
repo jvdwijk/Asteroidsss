@@ -28,7 +28,6 @@ public class BossEvents : MonoBehaviour {
 	void Start(){
 		playerHealth = player.GetComponent <PlayerHealth> ();
 		movement = player.GetComponent <Movement> ();
-		playerHealth = player.GetComponent <PlayerHealth> ();
 		blindCanvas.enabled = false;
 		frozenCanvas.enabled = false;
 		poisonCanvas.enabled = false;

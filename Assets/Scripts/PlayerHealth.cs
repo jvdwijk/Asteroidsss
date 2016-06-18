@@ -14,7 +14,6 @@ public class PlayerHealth : MonoBehaviour
 	public void doDamage(float damage) 
 	{
 		Health -= damage;
-		Debug.Log (Camera.main);
 		Camera.main.transform.GetComponent<CameraShake> ().ShakeCamera (10f, .5f);
 	}
 
@@ -52,7 +51,7 @@ public class PlayerHealth : MonoBehaviour
 
 	private void Regeneration()
 	{
-		Health++;
+		Health+=1;
 		regenTime = Time.time + regenDelay;
 	}
 }

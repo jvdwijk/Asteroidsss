@@ -18,6 +18,79 @@ public class BuyScript : MonoBehaviour {
 
 		case "Buyknop1":
 			//als item niet in inventory zit kan jij code uitvoeren
+			if(playerInventory.InInventory (ItemType.BCAvalon) == false)
+			{
+				//als jij zoveel coins heeft kan jij code uitvoeren
+				if(playerInventory.DeductCoins (20))
+				{
+					//Item in inventory toevoegen
+					playerInventory.AddItem (ItemType.BCAvalon);
+					//aangeven dat speler item gekocht heeft.
+					Debug.Log ("Bought BC Avalon");
+				}
+				//als speler te weinig geld heeft
+				else
+				{
+					//aangeven dat speler te weinig geld heeft.
+					Debug.Log ("Get More moneyz");
+				}
+			}
+			//als je item al hebt.
+			else
+				//aangeven dat speler het item al heeft.
+				Debug.Log ("Already got it!");
+
+			break;
+
+		case "Buyknop2":
+			if (playerInventory.InInventory (ItemType.SSEngalica) == false)
+			if (playerInventory.DeductCoins (20)) {
+				playerInventory.AddItem (ItemType.SSEngalica);
+			} else
+				Debug.Log ("Get More Moneyz");
+			else
+				Debug.Log ("Already got it");
+
+			break;
+
+		case "Buyknop3":
+			//als item niet in inventory zit kan jij code uitvoeren
+			if(playerInventory.InInventory (ItemType.SCStriker) == false)
+			{
+				//als jij zoveel coins heeft kan jij code uitvoeren
+				if(playerInventory.DeductCoins (20))
+				{
+					//Item in inventory toevoegen
+					playerInventory.AddItem (ItemType.SCStriker);
+					//aangeven dat speler item gekocht heeft.
+					Debug.Log ("Bought SC Striker");
+				}
+				//als speler te weinig geld heeft
+				else
+				{
+					//aangeven dat speler te weinig geld heeft.
+					Debug.Log ("Get More moneyz");
+				}
+			}
+			//als je item al hebt.
+			else
+				//aangeven dat speler het item al heeft.
+				Debug.Log ("Already got it!");
+
+			break;
+
+
+		/*case "Buyknop1":
+			if (playerInventory.DeductCoins (10)) {
+				playerInventory.AddItem (ItemType.AmmoGun1);
+				Debug.Log ("bought ammo");
+			} else
+				Debug.Log ("get more money");
+
+			break;*/
+
+		case "Buyknop4":
+			//als item niet in inventory zit kan jij code uitvoeren
 			if(playerInventory.InInventory (ItemType.SSEngalica) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
@@ -42,64 +115,7 @@ public class BuyScript : MonoBehaviour {
 
 			break;
 
-		case "Buyknop6":
-			if (playerInventory.InInventory (ItemType.SCStriker) == false)
-			if (playerInventory.DeductCoins (20)) {
-				playerInventory.AddItem (ItemType.SCStriker);
-			} else
-				Debug.Log ("Get More Moneyz");
-			else
-				Debug.Log ("Already got it");
-
-			break;
-
-		case "Buyknop3":
-			if(playerInventory.InInventory (ItemType.Gun1) == false)
-			{
-				if(playerInventory.DeductCoins (20))
-				{
-					playerInventory.AddItem (ItemType.Gun1);
-					Debug.Log ("Bought Gun1");
-				}
-				else
-				{
-					Debug.Log ("Get More moneyz");
-				}
-			}
-			else
-				Debug.Log ("Already got it!");
-
-			break;
-
-
-		/*case "Buyknop1":
-			if (playerInventory.DeductCoins (10)) {
-				playerInventory.AddItem (ItemType.AmmoGun1);
-				Debug.Log ("bought ammo");
-			} else
-				Debug.Log ("get more money");
-
-			break;*/
-
-		case "Buyknop4":
-			if(playerInventory.InInventory (ItemType.Gun2) == false)
-			{
-				if(playerInventory.DeductCoins (20))
-				{
-					playerInventory.AddItem (ItemType.Gun2);
-					Debug.Log ("Bought Gun2");
-				}
-				else
-				{
-					Debug.Log ("Get More moneyz");
-				}
-			}
-			else
-				Debug.Log ("Already got it!");
-
-			break;
-
-		case "Buyknop2":
+		case "Buyknop5":
 			if (playerInventory.DeductCoins (10)) {
 				playerInventory.AddItem (ItemType.AmmoGun2);
 				Debug.Log ("bought ammo");
@@ -108,7 +124,7 @@ public class BuyScript : MonoBehaviour {
 
 			break;
 
-		case "Buyknop7":
+		case "Buyknop6":
 			//als speler nog geen upgrade heeft gekocht voer code uit
 			if(playerInventory.InInventory (ItemType.SpeedUpgrade) == false)
 			{
@@ -152,6 +168,24 @@ public class BuyScript : MonoBehaviour {
 
 			break;
 
+		case "Buyknop8":
+			if(playerInventory.InInventory (ItemType.HealthUpgrade) == false)
+			{
+				if(playerInventory.DeductCoins (20))
+				{
+					playerInventory.AddItem (ItemType.HealthUpgrade);
+					Debug.Log ("Bought health upgrade");
+				}
+				else
+				{
+					Debug.Log ("Get More moneyz");
+				}
+			}
+			else
+				Debug.Log ("Already got it!");
+
+			break;
+
 		case "Buyknop9":
 			if(playerInventory.InInventory (ItemType.FirePowerUpgrade) == false)
 			{
@@ -166,6 +200,32 @@ public class BuyScript : MonoBehaviour {
 				}
 			}
 			else
+				Debug.Log ("Already got it!");
+
+			break;
+
+		case "Buyknop10":
+			//als speler nog geen upgrade heeft gekocht voer code uit
+			if(playerInventory.InInventory (ItemType.SpeedUpgrade) == false)
+			{
+				//test of de speler genoeg coins heb en haal het geld weg, voer daarna code uit
+				if(playerInventory.DeductCoins (20))
+				{
+					//add upgrade aan inventory
+					playerInventory.AddItem (ItemType.SpeedUpgrade);
+					//aangeven dat de speler upgrade gekocht heeft
+					Debug.Log ("Bought speed upgrade");
+				}
+				//als speler te weinig geld heeft voer code uit
+				else
+				{
+					//aangeven dat speler te weinig geld heeft
+					Debug.Log ("Get More moneyz");
+				}
+			}
+			//als speler upgrade al heeft
+			else
+				//aangeven dat speler upgrade al heeft
 				Debug.Log ("Already got it!");
 
 			break;

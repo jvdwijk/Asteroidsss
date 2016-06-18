@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour 
 {
-	[HideInInspector]
 	public float Health;
 	public Image healthBar;
 	private float regenDelay = 1.0F;
@@ -21,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
 
 	void Update()
 	{
+		Debug.Log (Health);
 		if(Time.time > regenTime && Health < 100)
 		{
 			Regeneration ();

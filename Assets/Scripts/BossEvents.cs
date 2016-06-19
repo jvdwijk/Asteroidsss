@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BossEvents : MonoBehaviour {
 	private Boss boss;
@@ -202,5 +203,12 @@ public class BossEvents : MonoBehaviour {
 		blindCanvas.enabled = true;
 	}
 
+	public void BossDeath(){
+		Invoke ("BackToMenu", 3);
+	}
+
+	private void BackToMenu(){
+		SceneManager.LoadScene ("MainMenu");
+	}
 
 }

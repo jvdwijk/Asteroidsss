@@ -1410,6 +1410,134 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 457544, guid: b68df503795395b4986142b0e8b78a52, type: 2}
       propertyPath: m_LocalPosition.x
       value: -52.8
@@ -1467,9 +1595,822 @@ Prefab:
       propertyPath: level
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMinions
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Thunder
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Thunder
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[2].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Blindness
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[3].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Blindness
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[4].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Thunder
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[5].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Blindness
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[6].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Invisible
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[7].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reversed
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[8].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Freeze
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[9].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[10].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[11].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[12].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[13].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[14].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: AbilityCooldown
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[15].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[16].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[17].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[18].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[19].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[20].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[21].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[22].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[23].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[24].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[25].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[26].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[27].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[28].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: Attacks.Array.data[29].m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478922, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: thunderBolt
+      value: 
+      objectReference: {fileID: 11407096, guid: b35e060ddf80d2546a24bc49a18e7152,
+        type: 2}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847554390}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BossDeath
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478922, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: needle
+      value: 
+      objectReference: {fileID: 11453312, guid: e4d69b09f8b1dae4089883a10f59f615,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b68df503795395b4986142b0e8b78a52, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &847554390 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11478922, guid: b68df503795395b4986142b0e8b78a52,
+    type: 2}
+  m_PrefabInternal: {fileID: 847554389}
+  m_Script: {fileID: 11500000, guid: 67aa443536a43414a92dda90836a66d9, type: 3}
 --- !u!1 &936836356
 GameObject:
   m_ObjectHideFlags: 0

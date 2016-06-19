@@ -5,9 +5,9 @@ using ItemType = PlayerInventory.ItemType;
 public class BuyScript : MonoBehaviour {
 
 	private PlayerInventory playerInventory;
-	private float hUP = 10; //health Upgrade Price
-	private float fPUP = 20; //firePower Upgrade Price
-	private float sUP = 50; // speed Upgrade Price
+	private int hUP = 10; //health Upgrade Price
+	private int fPUP = 20; //firePower Upgrade Price
+	private int sUP = 50; // speed Upgrade Price
 
 
 	void Awake()

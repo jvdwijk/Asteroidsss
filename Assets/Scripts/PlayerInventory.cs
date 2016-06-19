@@ -14,9 +14,12 @@ public class PlayerInventory : MonoBehaviour {
 	//variabelen coins aanmaken
 	public int coins = 0;
 
+
+
 	//functie start aanmaken
 	void Start()
 	{
+		PlayerPrefs.SetFloat ("coinvallue", coins);
 		//niet verwijderen als scene geladen wordt.
 		DontDestroyOnLoad (gameObject);
 		//functie na een seconde starten (debug command)

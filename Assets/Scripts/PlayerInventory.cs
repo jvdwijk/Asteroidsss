@@ -12,13 +12,19 @@ public class PlayerInventory : MonoBehaviour {
 	//de variabelen niet in de inspector laten zien
 	[HideInInspector]
 	//variabelen coins aanmaken
-	public int coins = 0;
+	public int coins;
 
 
 
 	//functie start aanmaken
 	void Start()
 	{
+		if(PlayerPrefs.HasKey ("coinvallue") == false){
+			coins = 0;
+		}
+		else{
+			coins = PlayerPrefs.GetFloat ("coinvallue");
+		}
 		PlayerPrefs.SetFloat ("coinvallue", coins);
 		//niet verwijderen als scene geladen wordt.
 		DontDestroyOnLoad (gameObject);

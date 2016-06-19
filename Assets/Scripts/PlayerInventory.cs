@@ -20,7 +20,7 @@ public class PlayerInventory : MonoBehaviour {
 		//niet verwijderen als scene geladen wordt.
 		DontDestroyOnLoad (gameObject);
 		//functie na een seconde starten (debug command)
-		Invoke ("CoinsDebug", 1f);
+		//Invoke ("CoinsDebug", 1f);
 	}
 
 	//functie voor debuggen aanmaken

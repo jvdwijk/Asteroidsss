@@ -6,6 +6,7 @@ public class BuyScript : MonoBehaviour {
 
 	private PlayerInventory playerInventory;
 
+
 	void Awake()
 	{
 		playerInventory = GameObject.FindGameObjectWithTag ("Playerinventory").GetComponent <PlayerInventory>();
@@ -91,15 +92,15 @@ public class BuyScript : MonoBehaviour {
 
 		case "Buyknop4":
 			//als item niet in inventory zit kan jij code uitvoeren
-			if(playerInventory.InInventory (ItemType.SSEngalica) == false)
+			if(playerInventory.InInventory (ItemType.LWSSFrumentum) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
 				if(playerInventory.DeductCoins (20))
 				{
 					//Item in inventory toevoegen
-					playerInventory.AddItem (ItemType.SSEngalica);
+					playerInventory.AddItem (ItemType.LWSSFrumentum);
 					//aangeven dat speler item gekocht heeft.
-					Debug.Log ("Bought SSEngalica");
+					Debug.Log ("Bought LWSS Frumentum");
 				}
 				//als speler te weinig geld heeft
 				else
@@ -116,54 +117,76 @@ public class BuyScript : MonoBehaviour {
 			break;
 
 		case "Buyknop5":
-			if (playerInventory.DeductCoins (10)) {
-				playerInventory.AddItem (ItemType.AmmoGun2);
-				Debug.Log ("bought ammo");
-			} else
-				Debug.Log ("get more money");
-
-			break;
-
-		case "Buyknop6":
-			//als speler nog geen upgrade heeft gekocht voer code uit
-			if(playerInventory.InInventory (ItemType.SpeedUpgrade) == false)
+			if(playerInventory.InInventory (ItemType.HMSConchylium) == false)
 			{
-				//test of de speler genoeg coins heb en haal het geld weg, voer daarna code uit
+				//als jij zoveel coins heeft kan jij code uitvoeren
 				if(playerInventory.DeductCoins (20))
 				{
-					//add upgrade aan inventory
-					playerInventory.AddItem (ItemType.SpeedUpgrade);
-					//aangeven dat de speler upgrade gekocht heeft
-					Debug.Log ("Bought speed upgrade");
+					//Item in inventory toevoegen
+					playerInventory.AddItem (ItemType.HMSConchylium);
+					//aangeven dat speler item gekocht heeft.
+					Debug.Log ("Bought HMS Conchylium");
 				}
-				//als speler te weinig geld heeft voer code uit
+				//als speler te weinig geld heeft
 				else
 				{
-					//aangeven dat speler te weinig geld heeft
+					//aangeven dat speler te weinig geld heeft.
 					Debug.Log ("Get More moneyz");
 				}
 			}
-			//als speler upgrade al heeft
+			//als je item al hebt.
 			else
-				//aangeven dat speler upgrade al heeft
+				//aangeven dat speler het item al heeft.
 				Debug.Log ("Already got it!");
 
 			break;
 
-		case "Buyknop8":
-			if(playerInventory.InInventory (ItemType.HealthUpgrade) == false)
+		case "Buyknop6":
+			if(playerInventory.InInventory (ItemType.BSContortor) == false)
 			{
+				//als jij zoveel coins heeft kan jij code uitvoeren
 				if(playerInventory.DeductCoins (20))
 				{
-					playerInventory.AddItem (ItemType.HealthUpgrade);
-					Debug.Log ("Bought health upgrade");
+					//Item in inventory toevoegen
+					playerInventory.AddItem (ItemType.BSContortor);
+					//aangeven dat speler item gekocht heeft.
+					Debug.Log ("Bought BS Contortor");
 				}
+				//als speler te weinig geld heeft
 				else
 				{
+					//aangeven dat speler te weinig geld heeft.
 					Debug.Log ("Get More moneyz");
 				}
 			}
+			//als je item al hebt.
 			else
+				//aangeven dat speler het item al heeft.
+				Debug.Log ("Already got it!");
+
+			break;
+
+		case "Buyknop7":
+			if(playerInventory.InInventory (ItemType.HWSSGeminus) == false)
+			{
+				//als jij zoveel coins heeft kan jij code uitvoeren
+				if(playerInventory.DeductCoins (20))
+				{
+					//Item in inventory toevoegen
+					playerInventory.AddItem (ItemType.HWSSGeminus);
+					//aangeven dat speler item gekocht heeft.
+					Debug.Log ("Bought HWSS Geminus");
+				}
+				//als speler te weinig geld heeft
+				else
+				{
+					//aangeven dat speler te weinig geld heeft.
+					Debug.Log ("Get More moneyz");
+				}
+			}
+			//als je item al hebt.
+			else
+				//aangeven dat speler het item al heeft.
 				Debug.Log ("Already got it!");
 
 			break;

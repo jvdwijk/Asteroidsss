@@ -13,8 +13,7 @@ public class Boss : MonoBehaviour {
 	public Bullet specialBullet;
 	public GameObject minion;
 	public Transform muzzle;
-	public Transform muzzle2;
-	public Transform muzzle3;
+	public EnemyHealth em;
 	public int level;
 	[SerializeField]
 	private SpriteRenderer icon;
@@ -38,6 +37,7 @@ public class Boss : MonoBehaviour {
 
 	void Start () {
 		target = GameObject.FindGameObjectWithTag ("Player").transform;
+		em = GetComponent<EnemyHealth> ();
 		GameObject.FindGameObjectWithTag ("Camera").GetComponent<CompassScript> ().AddPoint ("Comet", gameObject, Color.white, icon);
 
 		Alive = true;
@@ -46,6 +46,7 @@ public class Boss : MonoBehaviour {
 	}
 
 	void Update () {
+		Health = em.Health;
 		if (!target)
 			return;
 		

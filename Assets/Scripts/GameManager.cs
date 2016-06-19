@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour {
 		planets[1] = GameObject.FindGameObjectWithTag ("Planet2");
 		planets[2] = GameObject.FindGameObjectWithTag ("Planet3");
 		planets[3] = GameObject.FindGameObjectWithTag ("Planet4");
+
+		levelUnlocked = PlayerPrefs.GetInt ("unlocked");
 	} 
 
 	void Update () {

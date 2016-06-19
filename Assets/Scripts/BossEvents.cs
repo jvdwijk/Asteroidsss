@@ -69,6 +69,9 @@ public class BossEvents : MonoBehaviour {
 
 		obj.transform.position = transform.position;
 		obj.transform.rotation = boss.muzzle.rotation;
+		Bullet bullet = obj.GetComponent <Bullet> ();
+		bullet.shooter = transform;
+
 		obj.SetActive (true);
 	}
 

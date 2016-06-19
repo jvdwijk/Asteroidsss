@@ -777,7 +777,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 349757550}
         m_MethodName: RestartGame
         m_Mode: 5
         m_Arguments:
@@ -785,7 +785,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level2
+          m_StringArgument: Level4
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1196,8 +1196,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SetVolumeSFX
+      - m_Target: {fileID: 349757551}
+        m_MethodName: SetVolumeBGM
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 745866449}
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 349757551}
         m_MethodName: Switch
         m_Mode: 6
         m_Arguments:
@@ -1463,6 +1463,10 @@ Prefab:
       value: 
       objectReference: {fileID: 11406256, guid: e906269abaaa89f4896c0efb1cc42cdf,
         type: 2}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: level
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b68df503795395b4986142b0e8b78a52, type: 2}
   m_IsPrefabParent: 0
@@ -2150,7 +2154,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 349757551}
         m_MethodName: Switch
         m_Mode: 6
         m_Arguments:
@@ -3178,6 +3182,7 @@ MonoBehaviour:
   - {fileID: 163582, guid: 00d7faa57a2fed944a0a68b99be4e4f9, type: 2}
   - {fileID: 126796, guid: e906269abaaa89f4896c0efb1cc42cdf, type: 2}
   - {fileID: 124614, guid: e929bd5c9f4ab41499a1ffdf6e9b17db, type: 2}
+  - {fileID: 177530, guid: c6835c58616156143b45c3ebb82ead00, type: 2}
   willGrow: 1
 --- !u!4 &1694698655
 Transform:
@@ -3473,7 +3478,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 349757551}
         m_MethodName: SetVolumeSFX
         m_Mode: 2
         m_Arguments:
@@ -3879,6 +3884,10 @@ Prefab:
       propertyPath: ShootSound
       value: Laserpistool
       objectReference: {fileID: 0}
+    - target: {fileID: 11423294, guid: 7e6c116dc1de7fd468a05d222587d8e2, type: 2}
+      propertyPath: damage
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7e6c116dc1de7fd468a05d222587d8e2, type: 2}
   m_IsPrefabParent: 0
@@ -3957,7 +3966,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 349757550}
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:

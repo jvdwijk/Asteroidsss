@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour 
 {
-	[HideInInspector]
+	//[HideInInspector]
 	public float Health;
 	public Image healthBar;
 	private float regenDelay = 1.0F;

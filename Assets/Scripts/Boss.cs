@@ -15,6 +15,7 @@ public class Boss : MonoBehaviour {
 	public Transform muzzle;
 	public Transform muzzle2;
 	public Transform muzzle3;
+	public int level;
 	[SerializeField]
 	private SpriteRenderer icon;
 		
@@ -68,6 +69,7 @@ public class Boss : MonoBehaviour {
 			if (Alive) {
 				Alive = false;
 				OnDeath.Invoke ();
+				PlayerPrefs.SetInt ("unlocked", level);
 			}
 		} else {
 			if (!Alive) {

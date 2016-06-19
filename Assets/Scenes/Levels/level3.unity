@@ -281,7 +281,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1879019533}
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1879019534}
         m_MethodName: Switch
         m_Mode: 6
         m_Arguments:
@@ -1470,11 +1470,11 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SetVolumeSFX
+      - m_Target: {fileID: 1879019534}
+        m_MethodName: SetVolumeBGM
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 741148294}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2568,7 +2568,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1879019534}
         m_MethodName: Switch
         m_Mode: 6
         m_Arguments:
@@ -2834,6 +2834,10 @@ Prefab:
       value: 
       objectReference: {fileID: 11449354, guid: 6e57292f7a3e589498687e71d7859291,
         type: 2}
+    - target: {fileID: 11446240, guid: 934c0f40406b88a48889eed3fa46ae6b, type: 2}
+      propertyPath: level
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 934c0f40406b88a48889eed3fa46ae6b, type: 2}
   m_IsPrefabParent: 0
@@ -3008,28 +3012,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40a9b64cc26fb244789e5dc72e786369, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1533251539 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 140118, guid: 40a9b64cc26fb244789e5dc72e786369, type: 2}
-  m_PrefabInternal: {fileID: 1533251538}
 --- !u!4 &1533251540 stripped
 Transform:
   m_PrefabParentObject: {fileID: 449010, guid: 40a9b64cc26fb244789e5dc72e786369, type: 2}
   m_PrefabInternal: {fileID: 1533251538}
---- !u!114 &1533251541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1533251539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f85109b1db66bc4fb8bc7c919187646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 100
-  healthBar: {fileID: 1037572241}
-  poisoned: 0
 --- !u!1 &1555804837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,26 +3195,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11482774, guid: e37b6acdc61e969438b2d61f23d3c499, type: 2}
-      propertyPath: projectile
-      value: 
-      objectReference: {fileID: 11434872, guid: 741eeecc9baab5d4aa0d297d154cc66e,
-        type: 2}
-    - target: {fileID: 21234676, guid: e37b6acdc61e969438b2d61f23d3c499, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 646f2d65254b8344aabd2d0fd8f682a6,
-        type: 3}
-    - target: {fileID: 21265106, guid: e37b6acdc61e969438b2d61f23d3c499, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 646f2d65254b8344aabd2d0fd8f682a6,
-        type: 3}
-    - target: {fileID: 21233808, guid: e37b6acdc61e969438b2d61f23d3c499, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 646f2d65254b8344aabd2d0fd8f682a6,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37b6acdc61e969438b2d61f23d3c499, type: 2}
   m_IsPrefabParent: 0
@@ -3314,7 +3280,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1879019534}
         m_MethodName: SetVolumeSFX
         m_Mode: 2
         m_Arguments:
@@ -3550,7 +3516,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1879019533}
         m_MethodName: RestartGame
         m_Mode: 5
         m_Arguments:
@@ -3558,7 +3524,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level2
+          m_StringArgument: Level3
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -3837,6 +3803,7 @@ MonoBehaviour:
   - {fileID: 168022, guid: 741eeecc9baab5d4aa0d297d154cc66e, type: 2}
   - {fileID: 168444, guid: 6e57292f7a3e589498687e71d7859291, type: 2}
   - {fileID: 133602, guid: 7662fa5b29bba0f43907a2739601a3d9, type: 2}
+  - {fileID: 177530, guid: c6835c58616156143b45c3ebb82ead00, type: 2}
   willGrow: 1
 --- !u!4 &2012512486
 Transform:

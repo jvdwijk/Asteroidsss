@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class PlayerInventory : MonoBehaviour {
 
 	//lijst met items aanmaken
-	public enum ItemType { SSEngalica, BCAvalon, SCStriker, SpeedUpgrade, HealthUpgrade, FirePowerUpgrade, LWSSFrumentum, HMSConchylium, BSContortor, HWSSGeminus };
+	public enum ItemType { SSEngalica, BCAvalon, SCStriker, SpeedUpgrade, SpeedUpgrade2, SpeedUpgrade3, HealthUpgrade, FirePowerUpgrade, LWSSFrumentum, HMSConchylium, BSContortor, HWSSGeminus };
 	//dictionary voor inventory aanmaken
 	public Dictionary<ItemType, int> inventory = new Dictionary<ItemType, int>();
 

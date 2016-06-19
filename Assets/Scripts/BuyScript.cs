@@ -5,6 +5,9 @@ using ItemType = PlayerInventory.ItemType;
 public class BuyScript : MonoBehaviour {
 
 	private PlayerInventory playerInventory;
+	private float hUP = 10; //health Upgrade Price
+	private float fPUP = 20; //firePower Upgrade Price
+	private float sUP = 50; // speed Upgrade Price
 
 
 	void Awake()
@@ -22,7 +25,7 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.BCAvalon) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (50))
 				{
 					//Item in inventory toevoegen
 					playerInventory.AddItem (ItemType.BCAvalon);
@@ -45,7 +48,7 @@ public class BuyScript : MonoBehaviour {
 
 		case "Buyknop2":
 			if (playerInventory.InInventory (ItemType.SSEngalica) == false)
-			if (playerInventory.DeductCoins (20)) {
+			if (playerInventory.DeductCoins (50)) {
 				playerInventory.AddItem (ItemType.SSEngalica);
 			} else
 				Debug.Log ("Get More Moneyz");
@@ -59,7 +62,7 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.SCStriker) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (50))
 				{
 					//Item in inventory toevoegen
 					playerInventory.AddItem (ItemType.SCStriker);
@@ -95,7 +98,7 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.LWSSFrumentum) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (50))
 				{
 					//Item in inventory toevoegen
 					playerInventory.AddItem (ItemType.LWSSFrumentum);
@@ -120,7 +123,7 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.HMSConchylium) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (50))
 				{
 					//Item in inventory toevoegen
 					playerInventory.AddItem (ItemType.HMSConchylium);
@@ -145,7 +148,7 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.BSContortor) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (50))
 				{
 					//Item in inventory toevoegen
 					playerInventory.AddItem (ItemType.BSContortor);
@@ -170,7 +173,7 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.HWSSGeminus) == false)
 			{
 				//als jij zoveel coins heeft kan jij code uitvoeren
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (50))
 				{
 					//Item in inventory toevoegen
 					playerInventory.AddItem (ItemType.HWSSGeminus);
@@ -194,8 +197,9 @@ public class BuyScript : MonoBehaviour {
 		case "Buyknop8":
 			if(playerInventory.InInventory (ItemType.HealthUpgrade) == false)
 			{
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (hUP))
 				{
+					hUP = hUP * 2;
 					playerInventory.AddItem (ItemType.HealthUpgrade);
 					Debug.Log ("Bought health upgrade");
 				}
@@ -212,8 +216,9 @@ public class BuyScript : MonoBehaviour {
 		case "Buyknop9":
 			if(playerInventory.InInventory (ItemType.FirePowerUpgrade) == false)
 			{
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (fPUP))
 				{
+					fPUP = fPUP * 2;
 					playerInventory.AddItem (ItemType.FirePowerUpgrade);
 					Debug.Log ("Bought firepower upgrade");
 				}
@@ -232,8 +237,10 @@ public class BuyScript : MonoBehaviour {
 			if(playerInventory.InInventory (ItemType.SpeedUpgrade) == false)
 			{
 				//test of de speler genoeg coins heb en haal het geld weg, voer daarna code uit
-				if(playerInventory.DeductCoins (20))
+				if(playerInventory.DeductCoins (sUP))
 				{
+					//double the price of the upgrade
+					sUP = sUP * 2;
 					//add upgrade aan inventory
 					playerInventory.AddItem (ItemType.SpeedUpgrade);
 					//aangeven dat de speler upgrade gekocht heeft

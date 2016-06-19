@@ -2584,6 +2584,10 @@ Prefab:
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 11425738, guid: 10ca7fd29c1a54c43af6e227bdd35dd7, type: 2}
+      propertyPath: minion
+      value: 
+      objectReference: {fileID: 104988, guid: 06dbe8cf943758e4bafe6d5a3e1802b0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10ca7fd29c1a54c43af6e227bdd35dd7, type: 2}
   m_IsPrefabParent: 0

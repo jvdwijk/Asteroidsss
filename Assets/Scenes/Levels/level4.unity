@@ -2402,6 +2402,10 @@ Prefab:
       value: 
       objectReference: {fileID: 11453312, guid: e4d69b09f8b1dae4089883a10f59f615,
         type: 2}
+    - target: {fileID: 11439564, guid: b68df503795395b4986142b0e8b78a52, type: 2}
+      propertyPath: minion
+      value: 
+      objectReference: {fileID: 198498, guid: 7e6c116dc1de7fd468a05d222587d8e2, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b68df503795395b4986142b0e8b78a52, type: 2}
   m_IsPrefabParent: 0

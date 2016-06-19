@@ -204,6 +204,7 @@ public class BossEvents : MonoBehaviour {
 	}
 
 	public void BossDeath(){
+		Debug.Log ("appel");
 		Invoke ("BackToMenu", 3);
 	}
 

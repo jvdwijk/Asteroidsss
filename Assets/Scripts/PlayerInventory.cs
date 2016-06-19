@@ -5,8 +5,7 @@ using System.Collections.Generic;
 public class PlayerInventory : MonoBehaviour {
 
 	//lijst met items aanmaken
-	public enum ItemType { SSEngalica, SCStriker, Gun1, AmmoGun1, Gun2, AmmoGun2, SpeedUpgrade, HealthUpgrade, FirePowerUpgrade, EnemyScrap, CometScrap, BrokenGuns, Bolts, 
-		Minerals, Glass, RustySteelPlates, Stars};
+	public enum ItemType { SSEngalica, BCAvalon, SCStriker, SpeedUpgrade, HealthUpgrade, FirePowerUpgrade, LWSSFrumentum, HMSConchylium, BSContortor, HWSSGeminus };
 	//dictionary voor inventory aanmaken
 	public Dictionary<ItemType, int> inventory = new Dictionary<ItemType, int>();
 
@@ -21,7 +20,7 @@ public class PlayerInventory : MonoBehaviour {
 		//niet verwijderen als scene geladen wordt.
 		DontDestroyOnLoad (gameObject);
 		//functie na een seconde starten (debug command)
-		Invoke ("CoinsDebug", 1f);
+		//Invoke ("CoinsDebug", 1f);
 	}
 
 	//functie voor debuggen aanmaken

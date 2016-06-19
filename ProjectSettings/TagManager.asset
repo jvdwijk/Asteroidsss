@@ -8,16 +8,7 @@ TagManager:
   - Bullet
   - Enemy
   - Playerinventory
-  - Sellknop1
-  - Sellknop2
-  - Sellknop3
-  - Sellknop4
-  - Sellknop5
-  - Sellknop6
-  - Sellknop7
-  - Sellknop8
-  - Sellknop9
-  - Sellknop10
+  - Planet4
   - Buyknop1
   - Buyknop2
   - Buyknop3
@@ -31,6 +22,10 @@ TagManager:
   - Compass
   - Thunder
   - Boss
+  - Planet3
+  - Planet2
+  - Planet1
+  - Buyknop10
   layers:
   - Default
   - TransparentFX

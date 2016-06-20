@@ -1069,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &680753965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1382,7 +1382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &749081985
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2588,15 +2588,35 @@ Prefab:
       propertyPath: minion
       value: 
       objectReference: {fileID: 104988, guid: 06dbe8cf943758e4bafe6d5a3e1802b0, type: 2}
+    - target: {fileID: 133624, guid: 10ca7fd29c1a54c43af6e227bdd35dd7, type: 2}
+      propertyPath: m_TagString
+      value: Boss
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10ca7fd29c1a54c43af6e227bdd35dd7, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1204731432 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 133624, guid: 10ca7fd29c1a54c43af6e227bdd35dd7, type: 2}
+  m_PrefabInternal: {fileID: 1204731431}
 --- !u!114 &1204731433 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11467878, guid: 10ca7fd29c1a54c43af6e227bdd35dd7,
     type: 2}
   m_PrefabInternal: {fileID: 1204731431}
   m_Script: {fileID: 11500000, guid: 67aa443536a43414a92dda90836a66d9, type: 3}
+--- !u!114 &1204731434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204731432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf6ba1eec4a58d4994538dfd3898de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 1000
 --- !u!1 &1282829780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,7 +4195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!223 &1930158272
 Canvas:
   m_ObjectHideFlags: 0

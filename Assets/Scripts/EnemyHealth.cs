@@ -15,6 +15,7 @@ public class EnemyHealth : MonoBehaviour {
 		{
 			GameObject explosion = Instantiate (Resources.Load ("FX_Particle", typeof(GameObject)), transform.position, Quaternion.identity) as GameObject; 
 			Destroy (explosion, 4.9f);
+			if(tag == "Enemy")
 			Destroy (gameObject);
 		}
 	}

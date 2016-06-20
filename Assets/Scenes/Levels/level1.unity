@@ -1176,6 +1176,10 @@ Prefab:
       propertyPath: Attacks.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11405278, guid: 236c306b054cfa14cbb91a1ed6bc10d8, type: 2}
+      propertyPath: Health
+      value: 600
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 236c306b054cfa14cbb91a1ed6bc10d8, type: 2}
   m_IsPrefabParent: 0

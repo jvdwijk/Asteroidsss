@@ -12,7 +12,7 @@ public class PlayerInventory : MonoBehaviour {
 	//de variabelen niet in de inspector laten zien
 	[HideInInspector]
 	//variabelen coins aanmaken
-	public int coins;
+	public float coins;
 
 
 

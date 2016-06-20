@@ -7,6 +7,10 @@ public class SoundManager : MonoBehaviour {
 	public float BGMvolume;
 	public float SFXvolume;
 	private AudioSource source;
+	[SerializeField]
+	private AudioClip background;
+	[SerializeField]
+	private AudioSource backgroundSource;
 
 	[SerializeField]
 	private AudioClip[] sounds;
@@ -19,6 +23,11 @@ public class SoundManager : MonoBehaviour {
 		DontDestroyOnLoad (this);
 		current = this;
 		source = GetComponent<AudioSource> ();
+		backgroundSource.PlayOneShot (background, BGMvolume);
+	}
+
+	void Update () {
+		backgroundSource.volume = BGMvolume;
 	}
 
 	[ContextMenu("DEBUG")]

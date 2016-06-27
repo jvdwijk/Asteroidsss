@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
-public class EnemyShooting : MonoBehaviour 
+public class PlayerShooting : MonoBehaviour 
 {
 
 	public Bullet projectile;
@@ -10,61 +11,59 @@ public class EnemyShooting : MonoBehaviour
 	public float bulletSpeed;
 	public float fireRate = 0.4F;
 	[SerializeField]
+	private Image ammoBar;
+	[SerializeField]
 	private string ShootSound;
+	private Movement movement;
 
 	private float nextFire = 0.0F;
-	private float bullets = 20;
-	private float reloadTime = 1.8F;
-	private EnemyMovement enemyMovement;
+	private float bullets = 12;
+	private float maxBullets = 12;
+	private float reloadTime = 1.5F;
 	private InputHandler inputHandler;
-	[SerializeField]
-	private float damage;
 
-	void Awake()
-	{
-		enemyMovement = GetComponent <EnemyMovement>();
+	void Awake(){
+		movement = GetComponent <Movement> ();
 		inputHandler = GameObject.FindObjectOfType <InputHandler> ();
 	}
 
 	void Update()
 	{
-		
-
-		if(bullets > 0 && Time.time > nextFire && enemyMovement.inRange && enemyMovement.target )
+		if(bullets > 0 && movement.frozen == false && Time.time > nextFire && Input.GetKey (inputHandler.inputs["shootButton"]))
 		{
 			Shoot();
 		}
-		else if(bullets <= 0)
+		else if(bullets < 10 && Input.GetKey (inputHandler.inputs["reloadButton"]))
 		{
 			Reload();
 		}
+
+		ammoBar.fillAmount = bullets / maxBullets;
 	}
 
 	private void Shoot ()
 	{
-		
-		Quaternion rot = muzzle.rotation * Quaternion.Euler(0, Random.Range(-15, 15), 0);
-
 		GameObject obj = PoolingScript.current.GetPooledObject (projectile.gameObject);
 
 		if (obj == null)
 			return;
 
 		obj.transform.position = transform.position;
-		obj.transform.rotation = rot;
+		obj.transform.rotation = transform.rotation;
 		obj.SetActive (true);
 
-		Bullet bullet = obj.GetComponent <Bullet> ();
+		Bullet bullet = obj.GetComponent <Bullet>();
 		bullet.shooter = transform;
-		bullet.Damage = damage;
+
 		bullets -= 1;
 		nextFire = Time.time + fireRate;
 		SoundManager.current.PlaySound (ShootSound);
+
 	}
 
 	private void Reload()
 	{
-		bullets = 20;
+		bullets = 12;
 		nextFire = Time.time + reloadTime;
 	}
 }

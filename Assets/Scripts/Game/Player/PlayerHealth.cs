@@ -15,7 +15,6 @@ public class PlayerHealth : MonoBehaviour
 	public void doDamage(float damage) 
 	{
 		Health -= damage;
-		Debug.Log (Camera.main);
 		Camera.main.transform.GetComponent<CameraShake> ().ShakeCamera (10f, .5f);
 	}
 

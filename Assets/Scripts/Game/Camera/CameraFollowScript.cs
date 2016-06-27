@@ -24,14 +24,10 @@ public class CameraFollowScript : MonoBehaviour {
 	void Update () {
 		if(player)
 		{
-			/*if (Input.GetKey (inputHandler.inputs["camLeft"])) {
-				yRotation += Time.deltaTime * ySpeed;
-			} else if (Input.GetKey (inputHandler.inputs["camRight"])) {
-				yRotation -= Time.deltaTime * ySpeed;
-			}*/
+
 			yRotation = player.eulerAngles.y;
 
-			if (Input.GetKey(inputHandler.inputs["watchBehindKnop"])) {
+			if (Input.GetKey(inputHandler.inputs["watchBehindButton"])) {
 				yRotation += 180;
 			}
 

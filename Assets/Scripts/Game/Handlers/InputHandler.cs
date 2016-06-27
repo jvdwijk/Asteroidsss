@@ -9,16 +9,14 @@ public class InputHandler : MonoBehaviour {
 	float horizontal, vertical;
 
 	void Start(){
-		inputs.Add ("camLeft", KeyCode.E);
-		inputs.Add ("camRight", KeyCode.Q);
-		inputs.Add ("pauzeKnop", KeyCode.Escape); 
-		inputs.Add ("shootKnop", KeyCode.Space);
-		inputs.Add ("reloadKnop", KeyCode.R);
-		inputs.Add ("forwardKnop", KeyCode.W);
-		inputs.Add ("leftKnop", KeyCode.A);
-		inputs.Add ("breakKnop", KeyCode.S);
-		inputs.Add ("rightKnop", KeyCode.D);
-		inputs.Add ("watchBehindKnop", KeyCode.LeftShift);
+		inputs.Add ("pauzeButton", KeyCode.Escape); 
+		inputs.Add ("shootButton", KeyCode.Space);
+		inputs.Add ("reloadButton", KeyCode.R);
+		inputs.Add ("forwardButton", KeyCode.W);
+		inputs.Add ("leftButton", KeyCode.A);
+		inputs.Add ("breakButton", KeyCode.S);
+		inputs.Add ("rightButton", KeyCode.D);
+		inputs.Add ("watchBehindButton", KeyCode.LeftShift);
 	}
 		
 	public void ChangeKey(string key){
@@ -27,11 +25,11 @@ public class InputHandler : MonoBehaviour {
 
 	void Update() {
 
-		if (Input.GetKey (inputs["leftKnop"]) && !Input.GetKey (inputs["rightKnop"])) {
+		if (Input.GetKey (inputs["leftButton"]) && !Input.GetKey (inputs["rightButton"])) {
 			if (horizontal <= 1) {
 				horizontal -= Time.deltaTime * 3;
 			}
-		} else if (Input.GetKey (inputs["rightKnop"]) && !Input.GetKey (inputs["leftKnop"])) {
+		} else if (Input.GetKey (inputs["rightButton"]) && !Input.GetKey (inputs["leftButton"])) {
 			if (horizontal >= -1) {
 				horizontal += Time.deltaTime * 3;
 			}
@@ -39,11 +37,11 @@ public class InputHandler : MonoBehaviour {
 			horizontal = Mathf.Lerp (0, horizontal, Time.deltaTime * 3);
 		}
 
-		if (Input.GetKey (inputs ["forwardKnop"]) && !Input.GetKey (inputs ["breakKnop"])) {
+		if (Input.GetKey (inputs ["forwardButton"]) && !Input.GetKey (inputs ["breakButton"])) {
 			if (vertical <= 1) {
 				vertical += Time.deltaTime * 3;
 			}
-		} else if (Input.GetKey (inputs["breakKnop"]) && !Input.GetKey (inputs["forwardKnop"])) {
+		} else if (Input.GetKey (inputs["breakButton"]) && !Input.GetKey (inputs["forwardButton"])) {
 			if (vertical >= -1) {
 				vertical -= Time.deltaTime * 3;
 			}

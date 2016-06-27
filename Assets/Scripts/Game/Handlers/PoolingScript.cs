@@ -24,7 +24,6 @@ public class PoolingScript : MonoBehaviour {
 		pooledObjects = new List<List<GameObject>> ();
 		for (int x = 0; x < pooledObject.Length; x++) {
 			pooledObjects.Add (new List<GameObject> ());
-			Debug.Log ("Made list of GameObject: " + pooledObject [x]);
 			if (x > 3) {
 				for (int i = 0; i < pooledAmount; i++) {
 					GameObject obj = (GameObject)Instantiate (pooledObject [x]);

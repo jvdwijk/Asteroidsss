@@ -170,7 +170,6 @@ public class BossEvents : MonoBehaviour {
 	{
 		movement.reversed = true;
 		Invoke ("Unreversed", 3);
-		Debug.Log ("reverse");
 	}
 
 	private void Unreversed(){
@@ -204,7 +203,7 @@ public class BossEvents : MonoBehaviour {
 	}
 
 	public void BossDeath(){
-		Debug.Log ("appel");
+
 		Invoke ("BackToMenu", 3);
 	}
 

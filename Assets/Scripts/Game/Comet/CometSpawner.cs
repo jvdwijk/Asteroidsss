@@ -6,11 +6,6 @@ public class CometSpawner : MonoBehaviour {
 	public float spawnDelay;
 	public float radius;
 	private float spawnTime;
-	private InputHandler inputHandler;
-
-	void Start () {
-		inputHandler = GameObject.FindObjectOfType <InputHandler> ();
-	}
 
 	void Update () {
 		if (spawnTime < Time.time) {

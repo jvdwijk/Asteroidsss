@@ -25,19 +25,18 @@ public class PauzeScript : MonoBehaviour {
 
 	void Update()
 	{
-		if(Input.GetKeyDown (inputHandler.inputs["pauzeKnop"]) && Time.timeScale == 1)
+		if(Input.GetKeyDown (inputHandler.inputs["pauzeButton"]) && Time.timeScale == 1)
 		{
 			Time.timeScale = 0;
 
 			pause = true;
 			ShowPause (pause);
-		} else if(Input.GetKeyDown (inputHandler.inputs["pauzeKnop"]) && Time.timeScale == 0){
+		} else if(Input.GetKeyDown (inputHandler.inputs["pauzeButton"]) && Time.timeScale == 0){
 			Time.timeScale = 1;
 
 			pause = false;
 			ShowPause (pause);
 		}
-		Debug.Log (Time.timeScale);
 	}
 
 	public void Switch(bool pause) {

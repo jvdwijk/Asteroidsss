@@ -2505,7 +2505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf05fb35faeadbb449d39c49e39b7460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelUnlocked: 3
+  levelUnlocked: 0
 --- !u!1 &337521800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,7 +2667,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 41347268}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7083333
+  m_Size: 0.63611114
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5740,7 +5740,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1771737260}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.6433333
+  m_Size: 0.805
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
